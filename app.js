@@ -1,4 +1,4 @@
-function slidesPlugin(activeSlide = 3){
+function slidesPlugin(activeSlide = 3) {
     const slides = document.querySelectorAll('.slide')
 
     slides[activeSlide].classList.add('active')
@@ -17,4 +17,5 @@ function slidesPlugin(activeSlide = 3){
         })
     }
 }
+
 slidesPlugin(1)
